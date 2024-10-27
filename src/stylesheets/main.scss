@@ -56,6 +56,9 @@
 
             .mainInfo{
             width: 45%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
         
                 h1{
                 color: #3378B7;
@@ -115,6 +118,21 @@
 
 /*страница о нас*/
 
+.otstup {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+
+    .ramka, .ramka2, .ramka3, .ramka4, .ramka5, .ramka6, .ramka7, .ramka8 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ramka {
+        flex-wrap: wrap;
+    }
+}
 
 
 
