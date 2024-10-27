@@ -5,38 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
 </head>
-<body>
-    <H1>тясицу—цифровое пространство 
-        для ценителей чайной культуры</H1>
+<body class="index">
+  <div class="big">
+  <nav>
+    <a href="">статья</a>
+    <div class="stripe1"></div>
+    <h2>тя—си—цу</h2>
+    <div class="stripe2"></div>
+    <a href="about.html">о проекте</a>
+  </nav>
 
-        <h2>разделы</h2>
+  <div class="anima">
+  <img class="inanima" src="../src/images/Vector.png" alt="">
+</div>
 
-        <p><a href="teamap.html">чайная карта</a></p>
-        <p><a href="homamade.html">заварить дома</a></p>
-        <p><a href="ceremonies.html">церемонии</a></p>
-        <p><a href="architecture.html">архитектура</a></p>
+<div class="bottom">
 
-        <h2>подразделы</h2>
-
-        <p><a href="teamap/tags.html">теги</a></p>
-        <p><a href="homemade/recepies.html">рецепты</a></p>
-        <p><a href="ceremonies/context.html">контекст</a></p>
-        <p><a href="ceremonies/etiquette.html">этикет</a></p>
-        <p><a href="ceremonies/tableware.html">посуда</a></p>
-        <p><a href="architecture/countries.html">страны</a></p>
-        <p><a href="architecture/features.html">особенности</a></p>
-
-        <!-- modify this form HTML and place wherever you want your form -->
-<form id="my-form" action="https://formspree.io/f/myzygbvq" method="POST">
-    <label>Email:</label>
-    <input type="email" name="email" />
-    <label>Message:</label>
-    <input type="text" name="message" />
-    <button id="my-form-button">Submit</button>
+  <div class="mainInfo">
+  <h1>привет! пока мы завариваем для тебя сайт,
+    можешь оставить свою почту, чтобы узнать 
+    о его готовности первым! </h1>
+    <form id="my-form" action="https://formspree.io/f/myzygbvq" method="POST"></form>
+    <input class="inpt" type="email" name="email" placeholder="введите почту"/>
+    <button class="bttn" id="my-form-button">отправить</button>
     <p id="my-form-status"></p>
   </form>
+  </div>
+
+  <div class="soc">
+    <div class="krug1">
+      <img src="../src/images/tg.svg" alt="">
+    </div>
+
+    <div class="krug2"></div>
+      <img src="../src/images/vk.svg" alt="">
+    </div>
+  </div>
+
+</div>
+
   
-  <!-- Place this script at the end of the body tag -->
+
   <script>
     var form = document.getElementById("my-form");
     
@@ -70,6 +79,7 @@
     form.addEventListener("submit", handleSubmit)
   </script>
 
+</div>
         
 </body>
 </html>

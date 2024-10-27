@@ -1,0 +1,130 @@
+/*заглушка*/
+.index {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    .big {
+        width: 95vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+            color: #3378B7;
+            text-decoration: none;
+            font-family: "helvetica";
+            font-style: normal;
+            font-size: 1.5vw;
+            };
+        
+            h2 {
+            color: #3378B7;
+            text-decoration: none;
+            font-family: "helvetica";
+            font-style: bold;
+            font-size: 2vw;
+            };
+        
+            .stripe1, .stripe2 {
+            background-color: #3378B7;
+            width: 34vw;
+            height: 2px;
+            };
+            
+        };
+        
+        .anima {
+            text-align: center;
+    
+            .inanima {
+            display: inline-block;
+            width: 30vw;
+            };
+        };
+
+        .bottom {
+            width: 100%;
+
+            .mainInfo{
+            width: 45%;
+        
+                h1{
+                color: #3378B7;
+                text-decoration: none;
+                font-family: "helvetica";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.4vw;
+                };
+    
+                form {
+                display: flex;
+                gap: 10;
+
+                    input, button {
+                    font-size: 20px;
+                    height: 60px;
+                    };
+                    input{
+                    width: 40vw;
+                    border: 3px solid #3378B7;
+                    border-radius: 10px;
+                    padding: 0 14px;
+                    };
+                    button {
+                    width: 20vw;
+                    border-radius: 50px;
+                    border: none;
+                    background-color: #3378B7;
+                    };
+                };
+            };
+
+            .soc {
+                .kryg1, .krug2 {
+                color: #3378B7;
+                border-radius: 50%;
+                };
+            };
+        };
+
+        
+    };
+    
+
+
+    
+    /*@media screen and (max-width: 1025px) {
+        .index {
+        .mainInfo{
+            width: 100%;
+    
+        }
+    }
+    }*/
+};
+
+/*страница о нас*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
