@@ -8,7 +8,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    theory: './src/javascripts/theory.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -98,75 +99,68 @@ module.exports = {
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index']
     }),
 
       // Страницы разделов
       new HtmlWebpackPlugin({
-        template: './src/architecture.html',
-        filename: './architecture.html'
+        template: './src/about.html',
+        filename: './about.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/article.html',
-        filename: './article.html'
+        filename: './article.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/ceremonies.html',
-        filename: './ceremonies.html'
+        filename: './ceremonies.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/homemade.html',
-        filename: './homemade.html'
+        filename: './homemade.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/teamap.html',
-        filename: './teamap.html'
-      }),
-
-      // Страны в Архитектуре
-      new HtmlWebpackPlugin({
-        template: './src/architecture/countries.html',
-        filename: './architecture/countries.html'
-      }),
-
-      // Особенности архитектуры в разных странах
-      new HtmlWebpackPlugin({
-        template: './src/architecture/features.html',
-        filename: './architecture/features.html'
+        filename: './teamap.html',
+        chunks: ['index']
       }),
 
       // Подразделы в церемониях
-
       new HtmlWebpackPlugin({
         template: './src/ceremonies/context.html',
-        filename: './ceremonies/context.html'
+        filename: './ceremonies/context.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/ceremonies/etiquette.html',
-        filename: './ceremonies/etiquette.html'
+        filename: './ceremonies/etiquette.html',
+        chunks: ['index']
       }),
 
       new HtmlWebpackPlugin({
         template: './src/ceremonies/tableware.html',
-        filename: './ceremonies/tableware.html'
+        filename: './ceremonies/tableware.html',
+        chunks: ['index']
       }),
 
-      // Рецепты
       new HtmlWebpackPlugin({
-        template: './src/homemade/recepies.html',
-        filename: './homemade/recepies.html'
+        template: './src/styleguide.html',
+        filename: './styleguide.html',
+        chunks: ['index']
       }),
 
-      //Чайная карта
-      new HtmlWebpackPlugin({
-        template: './src/teamap/tags.html',
-        filename: './teamap/tags.html'
-      }),
+
+
 
     // Article
     // new HtmlWebpackPlugin({
