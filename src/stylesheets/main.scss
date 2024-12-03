@@ -263,6 +263,12 @@ body{
     width: 70%;
     padding: 20px;
     position: relative;
+    display: flex;
+
+    .navigation{
+      display: flex;
+      flex-direction: column;
+    }
 
     .vertical-line {
         position: absolute;
