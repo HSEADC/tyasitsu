@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 700;
     src:
-      url(8c0e2b12214c7ae51a4e.otf) format("opentype");
+      url(fonts/899889c95eb3c6b47ce3.otf) format("opentype");
 }
 
 @font-face {
@@ -12,7 +12,7 @@
     font-style: italic;
     font-weight: 700;
     src: 
-      url(d76fbd13fe01359e8fc3.otf) format("opentype");
+      url(fonts/082aabcca193fbd19bc4.otf) format("opentype");
 }
 
 @font-face {
@@ -20,7 +20,7 @@
     font-style: italic;
     font-weight: 700;
     src: 
-      url(c111fcb0f55947f4f303.ttf) format("truetype");
+      url(fonts/b38d72d608526b0b0d72.ttf) format("truetype");
 }
 
 @font-face {
@@ -28,7 +28,7 @@
     font-style: italic;
     font-weight: 400;
     src:
-      url(7d801503a1b086c0eeef.ttf) format("truetype");
+      url(fonts/e674236c5404f341ac21.ttf) format("truetype");
 }
 
 @font-face {
@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 300;
     src: 
-      url(c7fd9f9ed2fd5271bb76.otf) format("opentype");
+      url(fonts/677f82c0f6e45b4eeaf2.otf) format("opentype");
 }
 
 @font-face {
@@ -44,7 +44,7 @@
     font-style: italic;
     font-weight: 300;
     src: 
-      url(aa5854148b8329efd561.otf) format("opentype");
+      url(fonts/eef71bed5fd061ffad76.otf) format("opentype");
 }
 
 @font-face {
@@ -52,7 +52,7 @@
     font-style: italic;
     font-weight: 400;
     src: 
-      url(bea0b940cc5da650de4d.otf) format("opentype");
+      url(fonts/a1823bb006b6c436c523.otf) format("opentype");
 }
 
 @font-face {
@@ -60,7 +60,7 @@
     font-style: normal;
     font-weight: 400;
     src: 
-      url(ad348cb5eb8a52713993.otf) format("opentype");
+      url(fonts/da7db66db5a8e54a8308.otf) format("opentype");
 }
 body{
   font-family: "helvetica";
