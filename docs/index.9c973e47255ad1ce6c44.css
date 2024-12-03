@@ -3,64 +3,64 @@
     font-family: "helvetica";
     font-style: normal;
     font-weight: 700;
-    src: local("helvetica_bold"),
-      url(8c0e2b12214c7ae51a4e.otf) format("opentype"),
+    src:
+      url(8c0e2b12214c7ae51a4e.otf) format("opentype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: italic;
     font-weight: 700;
-    src: local("helvetica_boldoblique"),
-      url(d76fbd13fe01359e8fc3.otf) format("opentype"),
+    src: 
+      url(d76fbd13fe01359e8fc3.otf) format("opentype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: italic;
     font-weight: 700;
-    src: local("helvetica_cyr_boldoblique"),
-      url(c111fcb0f55947f4f303.ttf) format("truetype"),
+    src: 
+      url(c111fcb0f55947f4f303.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: italic;
     font-weight: 400;
-    src: local("helvetica_cyr_oblique"),
-      url(7d801503a1b086c0eeef.ttf) format("truetype"),
+    src:
+      url(7d801503a1b086c0eeef.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: normal;
     font-weight: 300;
-    src: local("helvetica_light"),
-      url(c7fd9f9ed2fd5271bb76.otf) format("opentype"),
+    src: 
+      url(c7fd9f9ed2fd5271bb76.otf) format("opentype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: italic;
     font-weight: 300;
-    src: local("helvetica_lightoblique"),
-      url(aa5854148b8329efd561.otf) format("opentype"),
+    src: 
+      url(aa5854148b8329efd561.otf) format("opentype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: italic;
     font-weight: 400;
-    src: local("helvetica_oblique"),
-      url(bea0b940cc5da650de4d.otf) format("opentype"),
+    src: 
+      url(bea0b940cc5da650de4d.otf) format("opentype");
 }
 
 @font-face {
     font-family: "helvetica";
     font-style: normal;
     font-weight: 400;
-    src: local("helvetica_regular"),
-      url(ad348cb5eb8a52713993.otf) format("opentype"),
+    src: 
+      url(ad348cb5eb8a52713993.otf) format("opentype");
 }
 body{
   font-family: "helvetica";
