@@ -1,63 +1,25 @@
 @font-face {
-    font-family: "helvetica";
-    font-style: normal;
-    font-weight: 700;
-    src:
-      url("../fonts/helvetica_bold.otf") format("opentype");
+  font-family: "mont";
+  font-style: normal;
+  font-weight: 100;
+  src:
+    url("../fonts/Mont-ExtraLightDEMO.otf") format("opentype"), 
+    url("../fonts/mont_extralightdemo.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "helvetica";
-    font-style: italic;
-    font-weight: 700;
-    src: 
-      url("../fonts/helvetica_boldoblique.otf") format("opentype");
+  font-family: "mont";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("../fonts/Mont-HeavyDEMO.otf") format("opentype"),
+    url("../fonts/mont_heavydemo.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "helvetica";
-    font-style: italic;
-    font-weight: 700;
-    src: 
-      url("../fonts/helvetica_cyr_boldoblique.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "helvetica";
-    font-style: italic;
-    font-weight: 400;
-    src:
-      url("../fonts/helvetica_cyr_oblique.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "helvetica";
-    font-style: normal;
-    font-weight: 300;
-    src: 
-      url("../fonts/helvetica_light.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "helvetica";
-    font-style: italic;
-    font-weight: 300;
-    src: 
-      url("../fonts/helvetica_lightoblique.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "helvetica";
-    font-style: italic;
-    font-weight: 400;
-    src: 
-      url("../fonts/helvetica_oblique.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "helvetica";
-    font-style: normal;
-    font-weight: 400;
-    src: 
-      url("../fonts/helvetica_regular.otf") format("opentype");
+  font-family: "steppe";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("../fonts/Steppe.ttf") format("truetype");
 }
