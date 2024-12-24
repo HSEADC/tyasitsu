@@ -14,6 +14,7 @@ module.exports = {
     meet: "./src/meet.js",
     recipe: "./src/recipe.js",
     article: "./src/article.js",
+    styleguide: "./SafiaProj/index.js",
   },
   output: {
     filename: "[name].[contenthash].js",
@@ -134,6 +135,12 @@ module.exports = {
       template: "./src/article.html",
       filename: "./article.html",
       chunks: ["article"],
+    }),
+
+    new HtmlWebpackPlugin({
+      template: "./SafiaProj/styleguide.html",
+      filename: "./styleguide.html",
+      chunks: ["styleguide"],
     }),
 
     // Partials
